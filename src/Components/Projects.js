@@ -122,7 +122,7 @@ const Projects = () => {
   };
 
   const addButton = () => (
-    <Fab color="primary" color="blue" aria-label="add">
+    <Fab color="primary"  aria-label="add">
       <AddIcon />
     </Fab>
   );

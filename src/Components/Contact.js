@@ -59,8 +59,8 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
               required
             ></textarea>
-            <button type="submit" disabled={disable}>
-              Submit
+            <button type="submit" disabled={disable} style={{ backgroundColor: '#FFD700', color: "#000" }}>
+                Submit
             </button>
           </form>
         </div>

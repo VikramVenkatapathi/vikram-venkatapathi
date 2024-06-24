@@ -1,6 +1,7 @@
 import React from 'react';
 import SchoolIcon from '@material-ui/icons/School';
 import '../assets/css/header.css'; // Ensure your CSS file is imported
+import { colors } from '@material-ui/core';
 
 class Header extends React.Component {
   constructor() {
@@ -96,49 +97,49 @@ class Header extends React.Component {
               <li>
                 <a href="#hero" className="nav-link scrollto active d-flex justify-content-center">
                   <i className="bx bx-home"></i>
-                  <span>Home</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>Home</span>
                 </a>
               </li>
               <li>
                 <a href="#about" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bx-user"></i>
-                  <span>About</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>About</span>
                 </a>
               </li>
               <li>
                 <a href="#experience" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bx-briefcase"></i>
-                  <span>Experience</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>Experience</span>
                 </a>
               </li>
               <li>
                 <a href="#projects" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bx-code"></i>
-                  <span>Projects</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>Projects</span>
                 </a>
               </li>
               <li>
                 <a href="#skills" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bx-cog"></i>
-                  <span>Skills</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>Skills</span>
                 </a>
               </li>
               <li>
                 <a href="#achievements" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bx-award"></i>
-                  <span>Achievements</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>Achievements</span>
                 </a>
               </li>
               <li>
                 <a href="#education" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bxs-school"></i>
-                  <span>Education</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>Education</span>
                 </a>
               </li>
               <li>
                 <a href="#contact" className="nav-link scrollto d-flex justify-content-center">
                   <i className="bx bxs-contact"></i>
-                  <span>Contact</span>
+                  <span style={{color: "black", fontWeight:"bold"}}>Contact</span>
                 </a>
               </li>
             </ul>
