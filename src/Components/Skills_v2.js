@@ -142,21 +142,27 @@ export default function Skills_v2() {
           <h2>Skills</h2>
         </div>
         
-        <Tabs 
-          value={value} 
-          onChange={handleChange} 
-          centered 
-          TabIndicatorProps={{
-            style: {
-              backgroundColor: '#66fcf1',
-            },
-          }}
-          className="custom-tabs"
-        >
-          {skillsData.map((category, index) => (
-            <Tab key={index} label={category.label} />
-          ))}
-        </Tabs>
+        <div className="custom-tabs-container">
+          <Tabs 
+            value={value} 
+            onChange={handleChange} 
+            centered 
+            variant="scrollable"
+            scrollButtons
+            allowScrollButtonsMobile
+            TabIndicatorProps={{
+              style: {
+                backgroundColor: '#66fcf1',
+              },
+            }}
+            className="custom-tabs"
+          >
+            {skillsData.map((category, index) => (
+              <Tab key={index} label={category.label} />
+            ))}
+          </Tabs>
+        </div>
+
         <div className="skills-content">
           {skillsData[value].skills.map((skill, index) => (
             <div key={index} className="skill-card">

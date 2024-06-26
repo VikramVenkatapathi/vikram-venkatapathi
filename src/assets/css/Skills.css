@@ -65,3 +65,14 @@
   display: block;
   margin-top: 5px; /* Reduce margin for text */
 }
+
+/* Ensure the tabs container allows horizontal scrolling */
+.custom-tabs-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.custom-tabs-container .MuiTabs-flexContainer {
+  display: inline-flex; /* Ensure the tabs are displayed inline */
+}
+

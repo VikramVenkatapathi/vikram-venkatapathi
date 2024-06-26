@@ -19,20 +19,20 @@ export default function About() {
               style={{ borderRadius: "50%" }}
             /> */}
           </Col>
-          <Col lg={8} pt={4} className="content">
+          <Col lg={8} pt={4} className="content" >
             <br></br>
-            <h3>Cloud / DevOps / Software Engineer.</h3>
+            <h3 style={{ color: "#fff" }}>Cloud / DevOps / Software Engineer.</h3>
             {/* <h5>Quite versatile, ik 😅</h5> */}
 
             <br/>
-            <p style={{ color: "#728394" }}>
+            <p style={{ color: "#fff" }}>
               In my 2nd year of Bachelor's, I felt lost as my peers landed internships in fields like SWE, ML, and Data Analysis. 
               After trying various fields and hating them, I discovered my passion for Cloud Computing☁️ and DevOps♾️. <br/>
               Through hands-on projects, certifications, and numerous mistakes (and hefty cloud bills🥲), I found joy in solving complex problems and continuously learning. <br/>
               My experiences have provided me with a strong technical skill set, the ability to learn quickly, and effectively communicate and collaborate. <br/>
             </p>
             <br/>
-            <p style={{ color: "#728394" }}>
+            <p style={{ color: "#fff" }}>
             I'm not a typical tech guy who just likes to code🧑‍💻; I explore how my work impacts and drives business success. 📈
             <br/>
             <br/>

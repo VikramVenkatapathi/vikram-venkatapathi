@@ -1,4 +1,6 @@
 import aws_ccp from "./images/AWS CCP badge.png";
+import aws_saa from "./images/AWS SAA badge.png";
+
 import tf_associate from "./images/TF-Accociate badge.png";
 import Button from "@material-ui/core/Button";
 import publication_logo from"./images/publication_logo.png";
@@ -6,6 +8,13 @@ import Card from "react-bootstrap/Card";
 
 const Achievements = () => {
     const items = [
+        {
+            img: aws_saa,
+            cardTitle: "AWS Certified Solutions Architect Associate ",
+            cardText: "Expected certification date <br/> July 21, 2024 ",
+            btnText: "In progress..",
+            // btnUrl: "https://journal.gnest.org/publication/gnest_05492",
+        },
         {
             img: tf_associate,
             cardTitle: "HashiCorp Certified: Terraform Associate (003)",
@@ -26,7 +35,7 @@ const Achievements = () => {
             cardText: "Date paper accepted: <br/> February 02, 2024 ",
             btnText: "See Publication",
             btnUrl: "https://journal.gnest.org/publication/gnest_05492",
-        },
+        }
     ];
     return (
         <section id="achievements" class="about background-alt">
