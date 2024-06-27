@@ -61,7 +61,7 @@ export default function About() {
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>Email:</strong>{" "}
                     <span>
-                      <a href="mailto:borolebhushan8@gmail.com">
+                      <a href="mailto:vikramvenkatapathi@gmail.com">
                       vikramvenkatapathi@gmail.com
                       </a>
                     </span>
