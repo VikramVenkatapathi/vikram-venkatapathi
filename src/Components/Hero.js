@@ -38,14 +38,17 @@ export default function Hero() {
               </span>
             </p>
             <div class="social-links">
-              <a href="https://github.com/VikramVenkatapathi">
+              <a href="https://github.com/VikramVenkatapathi" target="_blank" title="Visit my GitHub profile">
                 <i class="bx bxl-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/vikram-venkatapathi/">
+              <a href="https://www.linkedin.com/in/vikram-venkatapathi/" target="_blank" title="Visit my LinkedIn profile">
                 <i class="bx bxl-linkedin"></i>
               </a>
-              <a href="mailto:vikramvenkatapathi@gmail.com">
+              <a href="mailto:vikramvenkatapathi@gmail.com" title="Email me">
                 <i class="bx bx-envelope"></i>
+              </a>
+              <a href="https://calendly.com/vikramvenkatapathi/virtual-vibes" target="_blank" title="Book a meeting with me">
+                <i class="bx bx-calendar-plus"></i>
               </a>
             </div>
             <br />
