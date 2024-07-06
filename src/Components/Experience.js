@@ -4,6 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@material-ui/icons/Work";
+import StarIcon from "@material-ui/icons/Star";
 
 export default function Experience() {
   const items = [
@@ -91,9 +92,18 @@ export default function Experience() {
                     >
                       {data.cardDetailedText}
                     </p>
+                    
                   </VerticalTimelineElement>
+                  
                 );
               })}
+              <VerticalTimelineElement
+                iconStyle={{
+                  background: "rgb(102, 252, 241)",
+                  color: "#000",
+                }}
+                icon={<StarIcon />}
+              />
             </VerticalTimeline>
           </div>
         </div>

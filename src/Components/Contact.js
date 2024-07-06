@@ -1,82 +1,35 @@
-import React, { useState, useEffect } from "react";
-import SnackBar from "my-react-snackbar";
+import React from "react";
+import GmailIcon from '../Components/images/gmail-icon-2048x1535-imnstrko.png';
+import CalendlyIcon from '../Components/images/calendly.png';
 
-const FORMSPARK_URL = "https://submit-form.com/CARCkqSD";
 
 function Contact() {
-  const [message, setMessage] = useState("");
-  const [email, setEmail] = useState("");
-  const [open, setOpen] = useState(false);
-  const [disable, setDisable] = useState(false);
+  
+  const handleEmailClick = () => {
+    window.location.href = "mailto:vikramvenkatapathi@gmail.com";
+  };
 
-  //   const notify = () => toast.success("Here is your toast.");
-
-  const onSubmit = async (e) => {
-    e.preventDefault();
-    setDisable(true);
-    await fetch(FORMSPARK_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({
-        email,
-        message,
-      }),
-    });
-    setOpen(true);
-    setEmail("");
-    setMessage("");
-    setTimeout(setDisable(false), 2000);
+  const handleCalendlyClick = () => {
+    window.open("https://calendly.com/vikramvenkatapathi/virtual-vibes", "_blank");
   };
 
   return (
-    <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2 style={{ fontWeight: "bold", color: "rgba(255, 255, 255, 0.8)" }}>
-          Contact
-          </h2>
-        </div>
-        <div id="contact-form">
-          <form onSubmit={onSubmit}>
-            <input
-              id="email"
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-            <textarea
-              id="message"
-              type="text"
-              name="message"
-              placeholder="Message"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              required
-            ></textarea>
-            <button type="submit" disabled={disable} style={{ backgroundColor: '#FFD700', color: "#000" }}>
-                Submit
+    <section id="contact" className="contact section-bg">
+      <div className="container" data-aos="fade-up">
+        <div className="section-title">
+          <h2 style={{ fontWeight: "bold", color: "rgba(255, 255, 255, 0.8)" }}>Contact</h2>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+            <button type="button" onClick={handleEmailClick} style={{ backgroundColor: '#FFD700', color: "#000", padding: '10px', display: 'flex', alignItems: 'center', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '5px', cursor: 'pointer' }}>
+              <img src={GmailIcon} alt="Gmail Icon" style={{ width: '50px', marginRight: '10px' }} />
+              Email
             </button>
-          </form>
+            <button type="button" onClick={handleCalendlyClick} style={{ backgroundColor: '#FFD700', color: "#000", padding: '10px', display: 'flex', alignItems: 'center', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '5px', cursor: 'pointer' }}>
+              <img src={CalendlyIcon} alt="Calendly Icon" style={{ width: '50px', marginRight: '10px' }} />
+              Calendly
+            </button>
+          </div>
         </div>
       </div>
-      <SnackBar
-        open={open}
-        message={"Your Message is sent!"}
-        position="bottom-left"
-        type="success"
-        yesLabel="Ok"
-        timeout={2000}
-        onYes={() => {
-          setOpen(false);
-        }}
-        closeOnClick={true}
-      />
     </section>
   );
 }
