@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/vikram-venkatapathi/static/css/main.fd6fd196.css",
-    "main.js": "/vikram-venkatapathi/static/js/main.32a2a02d.js",
+    "main.js": "/vikram-venkatapathi/static/js/main.4411a206.js",
     "static/js/453.9d03fa87.chunk.js": "/vikram-venkatapathi/static/js/453.9d03fa87.chunk.js",
     "static/media/vikram_pfp.jpg": "/vikram-venkatapathi/static/media/vikram_pfp.7610c4f9010bd6fc354b.jpg",
     "static/media/boxicons.svg": "/vikram-venkatapathi/static/media/boxicons.c17adb11d64fadd1cd5a.svg",
+    "static/media/gmail-icon-2048x1535-imnstrko.png": "/vikram-venkatapathi/static/media/gmail-icon-2048x1535-imnstrko.1a856af5d3e1721a69a3.png",
     "static/media/k8s.png": "/vikram-venkatapathi/static/media/k8s.052eeea9ddfff9070dad.png",
     "static/media/boxicons.eot": "/vikram-venkatapathi/static/media/boxicons.092b78589f3f53e60030.eot",
     "static/media/boxicons.woff": "/vikram-venkatapathi/static/media/boxicons.0f4528cf3c75a4b361c0.woff",
@@ -20,6 +21,7 @@
     "static/media/MySQL_logo.png": "/vikram-venkatapathi/static/media/MySQL_logo.ce0d94ceab9153950dc5.png",
     "static/media/aws.png": "/vikram-venkatapathi/static/media/aws.af89aac4f183df61ef0f.png",
     "static/media/TF-Accociate badge.png": "/vikram-venkatapathi/static/media/TF-Accociate badge.f409e5a469ed83312ab5.png",
+    "static/media/calendly.png": "/vikram-venkatapathi/static/media/calendly.a9c63af3c8147441af9e.png",
     "static/media/AWS CCP badge.png": "/vikram-venkatapathi/static/media/AWS CCP badge.1d4d9fa250269a5b5067.png",
     "static/media/excel.png": "/vikram-venkatapathi/static/media/excel.59519b0ec3a2d27b8f21.png",
     "static/media/AWS SAA badge.png": "/vikram-venkatapathi/static/media/AWS SAA badge.c28c518452880a5fdfe4.png",
@@ -38,11 +40,11 @@
     "static/media/jira.png": "/vikram-venkatapathi/static/media/jira.553d5ee1d591c6b833a0.png",
     "index.html": "/vikram-venkatapathi/index.html",
     "main.fd6fd196.css.map": "/vikram-venkatapathi/static/css/main.fd6fd196.css.map",
-    "main.32a2a02d.js.map": "/vikram-venkatapathi/static/js/main.32a2a02d.js.map",
+    "main.4411a206.js.map": "/vikram-venkatapathi/static/js/main.4411a206.js.map",
     "453.9d03fa87.chunk.js.map": "/vikram-venkatapathi/static/js/453.9d03fa87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd6fd196.css",
-    "static/js/main.32a2a02d.js"
+    "static/js/main.4411a206.js"
   ]
 }
