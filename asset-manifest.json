@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vikram-venkatapathi/static/css/main.fd6fd196.css",
-    "main.js": "/vikram-venkatapathi/static/js/main.4411a206.js",
+    "main.css": "/vikram-venkatapathi/static/css/main.37f9249d.css",
+    "main.js": "/vikram-venkatapathi/static/js/main.48746575.js",
     "static/js/453.9d03fa87.chunk.js": "/vikram-venkatapathi/static/js/453.9d03fa87.chunk.js",
     "static/media/vikram_pfp.jpg": "/vikram-venkatapathi/static/media/vikram_pfp.7610c4f9010bd6fc354b.jpg",
     "static/media/boxicons.svg": "/vikram-venkatapathi/static/media/boxicons.c17adb11d64fadd1cd5a.svg",
@@ -17,6 +17,7 @@
     "static/media/boxicons.woff2": "/vikram-venkatapathi/static/media/boxicons.8d765747a5588f36ff61.woff2",
     "static/media/react.png": "/vikram-venkatapathi/static/media/react.1571a4bece640542903b.png",
     "static/media/bootstrap-icons.woff2?": "/vikram-venkatapathi/static/media/bootstrap-icons.01c9cc54aa4917872f00.woff2",
+    "static/media/OCI_F2023_CA.png": "/vikram-venkatapathi/static/media/OCI_F2023_CA.875ed81379710e99553b.png",
     "static/media/terraform.png": "/vikram-venkatapathi/static/media/terraform.d8f45d82b585cf9d342b.png",
     "static/media/MySQL_logo.png": "/vikram-venkatapathi/static/media/MySQL_logo.ce0d94ceab9153950dc5.png",
     "static/media/aws.png": "/vikram-venkatapathi/static/media/aws.af89aac4f183df61ef0f.png",
@@ -39,12 +40,12 @@
     "static/media/html.png": "/vikram-venkatapathi/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/jira.png": "/vikram-venkatapathi/static/media/jira.553d5ee1d591c6b833a0.png",
     "index.html": "/vikram-venkatapathi/index.html",
-    "main.fd6fd196.css.map": "/vikram-venkatapathi/static/css/main.fd6fd196.css.map",
-    "main.4411a206.js.map": "/vikram-venkatapathi/static/js/main.4411a206.js.map",
+    "main.37f9249d.css.map": "/vikram-venkatapathi/static/css/main.37f9249d.css.map",
+    "main.48746575.js.map": "/vikram-venkatapathi/static/js/main.48746575.js.map",
     "453.9d03fa87.chunk.js.map": "/vikram-venkatapathi/static/js/453.9d03fa87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd6fd196.css",
-    "static/js/main.4411a206.js"
+    "static/css/main.37f9249d.css",
+    "static/js/main.48746575.js"
   ]
 }
