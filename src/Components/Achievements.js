@@ -1,10 +1,11 @@
 import aws_ccp from "./images/AWS CCP badge.png";
 import aws_saa from "./images/AWS SAA badge.png";
-
+import oci_ca from "./images/OCI_F2023_CA.png"
 import tf_associate from "./images/TF-Accociate badge.png";
 import Button from "@material-ui/core/Button";
-import publication_logo from"./images/publication_logo.png";
+import publication_logo from "./images/publication_logo.png";
 import Card from "react-bootstrap/Card";
+import '../assets/css/achievements.css'; // Import CSS file for custom styles
 
 const Achievements = () => {
     const items = [
@@ -14,6 +15,13 @@ const Achievements = () => {
             cardText: "Expected certification date <br/> July 21, 2024 ",
             btnText: "In progress..",
             // btnUrl: "https://journal.gnest.org/publication/gnest_05492",
+        },
+        {
+            img: oci_ca,
+            cardTitle: "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
+            cardText: "Issued on: <br/> July 13, 2024 ",
+            btnText: "See Credential",
+            btnUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=C8657ADE5B1C67375D049E0C309520C3C59EA5295DC8E9451FB3C5670383EAEC",
         },
         {
             img: tf_associate,
@@ -38,45 +46,52 @@ const Achievements = () => {
         }
     ];
     return (
-        <section id="achievements" class="about background-alt">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
+        <section id="achievements" className="about background-alt">
+            <div className="container" data-aos="fade-up">
+                <div className="section-title">
                     <h2>Achievements</h2>
                 </div>
-                <div class="row">
+                <div className="row">
                     {items.map((data, i) => (
                         <div
-                            class="col-sm-3 d-flex justify-content-center"
+                            className="col-md-4 col-sm-6 col-xs-12 cardMargin" // Adjust column size for responsiveness
                             key={i}
                         >
-                            {/* <div class="card shadow-large h-100 achievement-card" style={{maxWidth: "270px", background: "#343a40", padding: "20px"}}>
-                    <img class="card-img-top responsive" src={data.img} height="50%" width="30%"/>
-                  <div class="card-body">
-                    <h5 class="card-title" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "16px"}}>{data.cardTitle}</h5>
-                    <p class="card-text" style={{color: "#74808a"}}>{data.cardText}</p>
-                    <a href="https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373" target="_blank" class="btn btn-primary">See Credential</a>
-                  </div>
-                </div> */}
                             <Card
                                 style={{
-                                    width: "16rem",
+                                    width: "14rem", // Adjust width to make smaller cards
                                     background: "#9FD1C8",
-                                    padding: "20px",
+                                    padding: "15px",
+                                    boxShadow: "0 4px 8px rgba(0,0,0,0.1)", // Add a subtle shadow for depth
                                 }}
                                 className="text-center"
                             >
-                                <Card.Img variant="top" src={data.img} />
+                                <Card.Img
+                                    variant="top"
+                                    src={data.img}
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto",
+                                        marginBottom: "10px",
+                                    }}
+                                />
                                 <Card.Body>
                                     <Card.Title
                                         style={{
                                             color: "rgba(0,0,0)",
-                                            fontSize: "18px",
+                                            fontSize: "16px",
+                                            marginBottom: "10px",
+                                            overflowWrap: "break-word",
                                         }}
                                     >
                                         {data.cardTitle}
                                     </Card.Title>
-                                    <br></br>
-                                    <Card.Text style={{ color: "#7e8890" }}>
+                                    <Card.Text
+                                        style={{
+                                            color: "#7e8890",
+                                            fontSize: "14px",
+                                        }}
+                                    >
                                         <div
                                             dangerouslySetInnerHTML={{
                                                 __html: data.cardText,
@@ -89,13 +104,13 @@ const Achievements = () => {
                                             color="default"
                                             target="_blank"
                                             href={data.btnUrl}
+                                            style={{ marginTop: "10px" }}
                                         >
                                             {data.btnText}
                                         </Button>
                                     )}
                                 </Card.Body>
                             </Card>
-                            <br></br>
                         </div>
                     ))}
                 </div>
