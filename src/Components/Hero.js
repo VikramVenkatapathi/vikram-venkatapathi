@@ -50,6 +50,9 @@ export default function Hero() {
               <a href="https://calendly.com/vikramvenkatapathi/virtual-vibes" target="_blank" title="Book a meeting with me">
                 <i class="bx bx-calendar-plus"></i>
               </a>
+              <a href="https://medium.com/@vikramvenkatapathi" target="_blank" title="My Blog on Medium.com">
+                <i className="bx bxl-medium"></i>
+              </a>
             </div>
             <br />
             <Button

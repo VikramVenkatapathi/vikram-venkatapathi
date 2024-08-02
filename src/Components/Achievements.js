@@ -12,7 +12,7 @@ const Achievements = () => {
         {
             img: aws_saa,
             cardTitle: "AWS Certified Solutions Architect Associate ",
-            cardText: "Expected certification date <br/> July 21, 2024 ",
+            cardText: "Expected certification date <br/> August, 2024 ",
             btnText: "In progress..",
             // btnUrl: "https://journal.gnest.org/publication/gnest_05492",
         },

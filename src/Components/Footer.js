@@ -45,6 +45,12 @@ const Footer = () => {
           <a href="mailto:vikramvenkatapathi@gmail.com">
             <i className="bx bx-envelope"></i>
           </a>
+          <a href="https://calendly.com/vikramvenkatapathi/virtual-vibes" target="_blank" title="Book a meeting with me">
+            <i class="bx bx-calendar-plus"></i>
+          </a>
+          <a href="https://medium.com/@vikramvenkatapathi" target="_blank" title="My Blog on Medium.com">
+            <i className="bx bxl-medium"></i>
+          </a>
         </div>
       </div>
     </footer>
