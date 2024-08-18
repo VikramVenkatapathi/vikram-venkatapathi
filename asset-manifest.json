@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vikram-venkatapathi/static/css/main.37f9249d.css",
-    "main.js": "/vikram-venkatapathi/static/js/main.f6059139.js",
+    "main.js": "/vikram-venkatapathi/static/js/main.dc94e427.js",
     "static/js/453.9d03fa87.chunk.js": "/vikram-venkatapathi/static/js/453.9d03fa87.chunk.js",
     "static/media/vikram_pfp.jpg": "/vikram-venkatapathi/static/media/vikram_pfp.7610c4f9010bd6fc354b.jpg",
     "static/media/boxicons.svg": "/vikram-venkatapathi/static/media/boxicons.c17adb11d64fadd1cd5a.svg",
@@ -41,11 +41,11 @@
     "static/media/jira.png": "/vikram-venkatapathi/static/media/jira.553d5ee1d591c6b833a0.png",
     "index.html": "/vikram-venkatapathi/index.html",
     "main.37f9249d.css.map": "/vikram-venkatapathi/static/css/main.37f9249d.css.map",
-    "main.f6059139.js.map": "/vikram-venkatapathi/static/js/main.f6059139.js.map",
+    "main.dc94e427.js.map": "/vikram-venkatapathi/static/js/main.dc94e427.js.map",
     "453.9d03fa87.chunk.js.map": "/vikram-venkatapathi/static/js/453.9d03fa87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37f9249d.css",
-    "static/js/main.f6059139.js"
+    "static/js/main.dc94e427.js"
   ]
 }
