@@ -34,6 +34,25 @@ const Projects = () => {
     //   ],
     // },
     {
+      cardTitle: "AWS Glue ETL Pipeline for Data Transformation",
+      cardDetailedText: [
+        "Engineered an ETL pipeline using AWS Glue, transforming customer CSV data into Parquet format in Amazon S3, which enhanced data retrieval speed by 50%.",
+        "Orchestrated the AWS Glue Data Catalog, organizing data into databases and tables to improve data accessibility and governance across the organization.",
+        "Automated data ingestion and processing by developing AWS Glue Crawlers and Triggers, reducing manual intervention by 80% and ensuring real-time data updates.",
+        "Implemented monitoring and alerting with AWS EventBridge and SNS, which provided immediate notifications for job failures and improved incident response.",
+        "Configured IAM roles with appropriate permissions to ensure secure access and operation of AWS Glue services, maintaining compliance with security policies."
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
+      technologies: ["AWS Glue", "Amazon S3", "AWS IAM", "Amazon EventBridge", "Amazon SNS"],
+      links: [
+        {
+          url: "https://github.com/VikramVenkatapathi/AWS-Glue-ETL-Project",
+          text: "View Repo",
+        },
+      ],
+    },
+    {
       cardTitle: "Architecting ‘e‑commerce‑site‘ Application on AWS",
       cardDetailedText: [
         "Augmented a scalable ‘ e-commerce platform’ on AWS Elastic Beanstalk, increasing reliability by 41% and cutting costs by 30%.",
